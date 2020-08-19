@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import EventListItem from "./EventListItem";
+import React, { Fragment } from 'react'
+import EventListItem from './EventListItem'
 
 export default function EventList({ events }) {
   return (
@@ -8,5 +8,5 @@ export default function EventList({ events }) {
         <EventListItem event={event} key={event.id} />
       ))}
     </Fragment>
-  );
+  )
 }
